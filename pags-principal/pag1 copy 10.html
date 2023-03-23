@@ -7269,7 +7269,7 @@
 
   <body id="page-institution" class="bg-gray-xxlight">
     <div class="contain-page bg-gray-xxlight">
-      <header data-cc-header="standard" class="z-top relative">
+      <header data-cc-header="nosearch" class="z-top relative">
         <div
           class="relative bg-white cc-header border-bottom border-gray-light"
         >
@@ -7289,53 +7289,45 @@
               <i
                 class="relative symbol-classcentral-navy symbol-small block large-up-hidden"
               ></i>
-              <span class="off-page"
-                ><font style="vertical-align: inherit"
-                  ><font style="vertical-align: inherit"
-                    >क्लास सेंट्रल</font
-                  ></font
-                ></span
-              >
+              <span class="off-page">क्लास सेंट्रल</span>
             </a>
 
             <div
               data-name="MAIN_NAV_TRIGGER_CONTAINER"
-              style="display: flex; align-items: center; height: 100%"
-              class="margin-right-small large-up-margin-right-medium"
+              class="div1"
+              onmouseover="mostrarDiv2()"
+              onmouseout="ocultarDiv2()"
+              id="doce"
+              style="height: 100%"
             >
               <button
-                aria-label="साइट मेनू"
+                aria-label="Site Menu"
                 class="block large-up-hidden"
                 data-name="MAIN_NAV_TRIGGER"
               >
                 <i class="icon-medium icon-menu-charcoal"></i>
               </button>
-              <button
-                data-name="LARGE_UP_MAIN_NAV_TRIGGER"
-                class="hidden weight-semi large-up-block text-1 color-charcoal padding-right-small"
-                type="button"
-              >
-                <font style="vertical-align: inherit"
-                  ><font style="vertical-align: inherit">
-                    पाठ्यक्रम
-                  </font></font
+              <div style="height: 100%">
+                <button
+                  style="height: 100%"
+                  data-name="LARGE_UP_MAIN_NAV_TRIGGER"
+                  class="hidden weight-semi large-up-block text-1 color-charcoal padding-right-small"
+                  type="button"
                 >
-              </button>
+                  पाठ्यक्रम
+                </button>
+              </div>
               <nav class="main-nav-dropdown js-main-nav-dropdown">
-                <div class="main-nav-dropdown__index">
+                <div class="div3" id="div3" id="once" style="display: none">
                   <div class="main-nav-dropdown__header large-up-hidden">
                     <h2
                       class="main-nav-dropdown__header-brand icon-lettermark-charcoal"
                     >
-                      <font style="vertical-align: inherit"
-                        ><font style="vertical-align: inherit"
-                          >क्लास सेंट्रल</font
-                        ></font
-                      >
+                      क्लास सेंट्रल
                     </h2>
 
                     <button
-                      aria-label="Close Site Menu"
+                      aria-label="साइट मेनू बंद करें"
                       data-name="MAIN_NAV_CLOSE"
                       class="main-nav-dropdown__close-button"
                     >
@@ -7357,13 +7349,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"rankings"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >रैंकिंग</font
-                              ></font
-                            ></span
-                          >
+                          <span>रैंकिंग</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7379,13 +7365,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"collections"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >संग्रह</font
-                              ></font
-                            ></span
-                          >
+                          <span>संग्रह</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7396,22 +7376,12 @@
 
                   <section class="main-nav-dropdown__section--with-header">
                     <div class="main-nav-dropdown__section-header">
-                      <h3 class="main-nav-dropdown__section-heading">
-                        <font style="vertical-align: inherit"
-                          ><font style="vertical-align: inherit"
-                            >विषयों</font
-                          ></font
-                        >
-                      </h3>
+                      <h3 class="main-nav-dropdown__section-heading">विषयों</h3>
                       <a
                         class="main-nav-dropdown__section-button large-up-hidden"
                         href="/subjects"
                         data-track-ga='{"category":"nav_click","action":"subject","label":"view all"}'
-                        ><font style="vertical-align: inherit"
-                          ><font style="vertical-align: inherit"
-                            >सभी को देखें</font
-                          ></font
-                        ></a
+                        >सभी को देखें</a
                       >
                     </div>
 
@@ -7426,13 +7396,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-cs"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >कंप्यूटर विज्ञान</font
-                              ></font
-                            ></span
-                          >
+                          <span>कंप्यूटर विज्ञान</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7448,13 +7412,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-health"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >स्वास्थ्य और चिकित्सा</font
-                              ></font
-                            ></span
-                          >
+                          <span>स्वास्थ्य और चिकित्सा</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7470,13 +7428,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-maths"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >अंक शास्त्र</font
-                              ></font
-                            ></span
-                          >
+                          <span>अंक शास्त्र</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7492,13 +7444,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-business"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >व्यवसाय</font
-                              ></font
-                            ></span
-                          >
+                          <span>व्यवसाय</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7514,13 +7460,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-humanities"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >मानविकी</font
-                              ></font
-                            ></span
-                          >
+                          <span>मानविकी</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7536,13 +7476,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-engineering"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >अभियांत्रिकी</font
-                              ></font
-                            ></span
-                          >
+                          <span>अभियांत्रिकी</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7558,13 +7492,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-science"}'
                         >
-                          <span
-                            ><font style="vertical-align: inherit"
-                              ><font style="vertical-align: inherit"
-                                >विज्ञान</font
-                              ></font
-                            ></span
-                          >
+                          <span>विज्ञान</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7580,7 +7508,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-education"}'
                         >
-                          <span>Education &amp; Teaching</span>
+                          <span>शिक्षा और शिक्षण</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7596,7 +7524,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-social-sciences"}'
                         >
-                          <span>Social Sciences</span>
+                          <span>सामाजिक विज्ञान</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7612,7 +7540,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-art-and-design"}'
                         >
-                          <span>Art &amp; Design</span>
+                          <span>कला डिजाइन</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7628,7 +7556,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-data-science"}'
                         >
-                          <span>Data Science</span>
+                          <span>डेटा विज्ञान</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7644,7 +7572,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-programming-and-software-development"}'
                         >
-                          <span>Programming</span>
+                          <span>प्रोग्रामिंग</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7660,7 +7588,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-personal-development"}'
                         >
-                          <span>Personal Development</span>
+                          <span>व्यक्तिगत विकास</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7676,7 +7604,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-infosec"}'
                         >
-                          <span>Information Security (InfoSec)</span>
+                          <span>सूचना सुरक्षा (इन्फोसेक)</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7692,7 +7620,7 @@
                           data-name="NAV_SUBSECTION_PARENT"
                           data-detail='{"childListId":"subject-conference-talks"}'
                         >
-                          <span>Conference Talks</span>
+                          <span>सम्मेलन वार्ता</span>
                           <span
                             class="main-nav-dropdown__item-icon icon-chevron-right-charcoal icon-small"
                           ></span>
@@ -7706,7 +7634,7 @@
                       data-track-ga='{"category":"nav_click","action":"subject","label":"view all subjects"}'
                       href="/subjects"
                       class="text-2 hover-no-underline weight-semi margin-vert-xsmall padding-left-medium padding-right-medium hidden large-up-block"
-                      >View all Subjects</a
+                      >सभी विषय देखें</a
                     >
                   </section>
 
@@ -7720,7 +7648,7 @@
                           data-track-props='{"type":"University","title":"Universities"}'
                           data-track-ga='{"category":"nav_click","action":"university","label":"Universities"}'
                         >
-                          <span class="weight-semi">Universities</span>
+                          <span class="weight-semi">विश्वविद्यालयों</span>
                         </a>
                       </li>
                       <li class="main-nav-dropdown__item">
@@ -7730,7 +7658,7 @@
                           data-track-ga='{"category":"nav_click","action":"news","label":"mobile"}'
                         >
                           <span class="block symbol-report" style="height: 18px"
-                            >The Report</span
+                            >रिपोर्ट</span
                           >
                         </a>
                       </li>
@@ -7740,14 +7668,19 @@
                   <p
                     class="small-down-hidden text-2 padding-left-medium padding-right-medium padding-vert-xxsmall"
                   >
-                    Courses from
                     <a
                       data-track-ga='{"category":"nav_click","action":"university","label":"1000+ universities"}'
                       data-track-click="nav_click"
                       data-track-props='{"type": "University", "title": "1000+ universities"}'
                       href="/universities"
-                      >1000+ universities</a
+                      >1000+ विश्वविद्यालयों</a
                     >
+                    से पाठ्यक्रम<a
+                      data-track-ga='{"category":"nav_click","action":"university","label":"1000+ universities"}'
+                      data-track-click="nav_click"
+                      data-track-props='{"type": "University", "title": "1000+ universities"}'
+                      href="/universities"
+                    ></a>
                   </p>
                 </div>
                 <div class="main-nav-dropdown__subsections">
@@ -7760,7 +7693,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -7768,7 +7701,7 @@
                       </button>
 
                       <h3 class="main-nav-dropdown__subsection-title">
-                        Rankings
+                        रैंकिंग
                       </h3>
                     </div>
 
@@ -7784,9 +7717,8 @@
                           >
                             <img
                               class="width-100 radius-small"
-                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fbest-courses%2Fmini-banner-best-of-all-time.png?auto=format&amp;blur=200&amp;h=420&amp;ixlib=php-3.3.1&amp;px=16&amp;s=d9866ee3df3a50272132b746506802ee"
-                              data-src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fbest-courses%2Fmini-banner-best-of-all-time.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=11c7448eb8908a8cc785e26ec27de650"
-                              alt="Best of All Time"
+                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fbest-courses%2Fmini-banner-best-of-all-time.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=11c7448eb8908a8cc785e26ec27de650"
+                              alt="बेस्ट ऑफ ऑल टाइम"
                             />
                           </a>
                         </li>
@@ -7800,9 +7732,8 @@
                           >
                             <img
                               class="width-100 radius-small"
-                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fbest-courses%2Fmini-banner-most-popular-of-all-time.png?auto=format&amp;blur=200&amp;h=420&amp;ixlib=php-3.3.1&amp;px=16&amp;s=6b9b3ca668420c3d807c332c51ee7f2c"
-                              data-src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fbest-courses%2Fmini-banner-most-popular-of-all-time.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=8ddc221d6528da20924c85c064e17572"
-                              alt="Most Popular of All Time"
+                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fbest-courses%2Fmini-banner-most-popular-of-all-time.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=8ddc221d6528da20924c85c064e17572"
+                              alt="अब तक का सबसे लोकप्रिय"
                             />
                           </a>
                         </li>
@@ -7811,7 +7742,7 @@
                     <section class="main-nav-dropdown__section--with-header">
                       <div class="main-nav-dropdown__section-header">
                         <h3 class="main-nav-dropdown__section-heading">
-                          Best Courses
+                          सर्वश्रेष्ठ पाठ्यक्रम
                         </h3>
                       </div>
 
@@ -7824,7 +7755,7 @@
                             data-track-props='{"type":"rankings","title":"Best of All Time"}'
                             data-track-ga='{"category":"nav_click","action":"rankings","label":"Best of All Time"}'
                           >
-                            <span>Best of All Time</span>
+                            <span>बेस्ट ऑफ ऑल टाइम</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -7835,7 +7766,7 @@
                             data-track-props='{"type":"rankings","title":"Best of the Year 2022"}'
                             data-track-ga='{"category":"nav_click","action":"rankings","label":"Best of the Year 2022"}'
                           >
-                            <span>Best of the Year 2022</span>
+                            <span>वर्ष 2022 का सर्वश्रेष्ठ</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -7846,7 +7777,7 @@
                             data-track-props='{"type":"rankings","title":"Best of the Year 2021"}'
                             data-track-ga='{"category":"nav_click","action":"rankings","label":"Best of the Year 2021"}'
                           >
-                            <span>Best of the Year 2021</span>
+                            <span>वर्ष 2021 का सर्वश्रेष्ठ</span>
                           </a>
                         </li>
                       </ul>
@@ -7854,7 +7785,7 @@
                     <section class="main-nav-dropdown__section--with-header">
                       <div class="main-nav-dropdown__section-header">
                         <h3 class="main-nav-dropdown__section-heading">
-                          Most Popular Courses
+                          सबसे लोकप्रिय पाठ्यक्रम
                         </h3>
                       </div>
 
@@ -7867,7 +7798,7 @@
                             data-track-props='{"type":"rankings","title":"Most Popular of All Time"}'
                             data-track-ga='{"category":"nav_click","action":"rankings","label":"Most Popular of All Time"}'
                           >
-                            <span>Most Popular of All Time</span>
+                            <span>अब तक का सबसे लोकप्रिय</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -7905,7 +7836,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -7929,9 +7860,8 @@
                           >
                             <img
                               class="width-100 radius-small"
-                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-ivy-league-moocs-social.jpg?auto=format&amp;blur=200&amp;h=420&amp;ixlib=php-3.3.1&amp;px=16&amp;s=0d3af0d0d31cdbdc684a726b330a759f"
-                              data-src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-ivy-league-moocs-social.jpg?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=c49b305f32e1e971696b9852e3971c6b"
-                              alt="Ivy League Courses"
+                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-ivy-league-moocs-social.jpg?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=c49b305f32e1e971696b9852e3971c6b"
+                              alt="आइवी लीग पाठ्यक्रम"
                             />
                           </a>
                         </li>
@@ -7945,9 +7875,8 @@
                           >
                             <img
                               class="width-100 radius-small"
-                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-coursera-free-courses.png?auto=format&amp;blur=200&amp;h=420&amp;ixlib=php-3.3.1&amp;px=16&amp;s=dbef6e5a11e80f652ab6a5ce5eb593b8"
-                              data-src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-coursera-free-courses.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=9044610de77ddba19697f770dd2531c7"
-                              alt="Free Coursera Courses"
+                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-coursera-free-courses.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=9044610de77ddba19697f770dd2531c7"
+                              alt="नि: शुल्क कौरसेरा पाठ्यक्रम"
                             />
                           </a>
                         </li>
@@ -7961,9 +7890,8 @@
                           >
                             <img
                               class="width-100 radius-small"
-                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-free-certificates.png?auto=format&amp;blur=200&amp;h=420&amp;ixlib=php-3.3.1&amp;px=16&amp;s=f880669c2a69683d851d6be4ee71652e"
-                              data-src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-free-certificates.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=bc50a602c38dbf30802649312c6a4474"
-                              alt="Free Certificates"
+                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-free-certificates.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=bc50a602c38dbf30802649312c6a4474"
+                              alt="नि: शुल्क प्रमाण पत्र"
                             />
                           </a>
                         </li>
@@ -7977,9 +7905,8 @@
                           >
                             <img
                               class="width-100 radius-small"
-                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-google-certs.png?auto=format&amp;blur=200&amp;h=420&amp;ixlib=php-3.3.1&amp;px=16&amp;s=0d0859ee6dce9cd586fcc06d2e5d34ec"
-                              data-src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-google-certs.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=ac4c48d612e7961d7335e87451e52ac4"
-                              alt="Free Google Certifications"
+                              src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Fcollections%2Fcollection-google-certs.png?auto=format&amp;h=420&amp;ixlib=php-3.3.1&amp;s=ac4c48d612e7961d7335e87451e52ac4"
+                              alt="मुफ़्त Google प्रमाणन"
                             />
                           </a>
                         </li>
@@ -8039,7 +7966,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -8242,7 +8169,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -8368,7 +8295,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -8571,7 +8498,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -8818,7 +8745,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9032,7 +8959,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9213,7 +9140,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9372,7 +9299,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9498,7 +9425,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9679,7 +9606,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9761,7 +9688,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9865,7 +9792,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -9980,7 +9907,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -10035,7 +9962,7 @@
                             data-track-props='{"type":"Subject","title":"Presentation Skills"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Presentation Skills"}'
                           >
-                            <span>Presentation Skills</span>
+                            <span>कौशल प्रस्तुति</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10046,7 +9973,7 @@
                             data-track-props='{"type":"Subject","title":"Resilience"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Resilience"}'
                           >
-                            <span>Resilience</span>
+                            <span>लचीलापन</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10057,7 +9984,7 @@
                             data-track-props='{"type":"Subject","title":"Personal Development"}'
                             data-track-ga='{"category":"nav_click","action":"subject","label":"Personal Development"}'
                           >
-                            <span>View all Personal Development</span>
+                            <span>सभी व्यक्तिगत विकास देखें</span>
                           </a>
                         </li>
                       </ul>
@@ -10073,7 +10000,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -10081,7 +10008,7 @@
                       </button>
 
                       <h3 class="main-nav-dropdown__subsection-title">
-                        Information Security (InfoSec)
+                        सूचना सुरक्षा (इन्फोसेक)
                       </h3>
                     </div>
 
@@ -10095,7 +10022,7 @@
                             data-track-props='{"type":"Subject","title":"Cybersecurity"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Cybersecurity"}'
                           >
-                            <span>Cybersecurity</span>
+                            <span>साइबर सुरक्षा</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10106,7 +10033,7 @@
                             data-track-props='{"type":"Subject","title":"Network Security"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Network Security"}'
                           >
-                            <span>Network Security</span>
+                            <span>नेटवर्क सुरक्षा</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10117,7 +10044,7 @@
                             data-track-props='{"type":"Subject","title":"Ethical Hacking"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Ethical Hacking"}'
                           >
-                            <span>Ethical Hacking</span>
+                            <span>नैतिक हैकिंग</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10128,7 +10055,7 @@
                             data-track-props='{"type":"Subject","title":"Digital Forensics"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Digital Forensics"}'
                           >
-                            <span>Digital Forensics</span>
+                            <span>डिजिटल फोरेंसिक</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10139,7 +10066,7 @@
                             data-track-props='{"type":"Subject","title":"Reverse Engineering"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Reverse Engineering"}'
                           >
-                            <span>Reverse Engineering</span>
+                            <span>रिवर्स इंजीनियरिंग</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10150,7 +10077,7 @@
                             data-track-props='{"type":"Subject","title":"Penetration Testing"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Penetration Testing"}'
                           >
-                            <span>Penetration Testing</span>
+                            <span>भेदन परीक्षण</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10161,7 +10088,7 @@
                             data-track-props='{"type":"Subject","title":"Malware Analysis"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Malware Analysis"}'
                           >
-                            <span>Malware Analysis</span>
+                            <span>मैलवेयर विश्लेषण</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10183,7 +10110,7 @@
                             data-track-props='{"type":"Subject","title":"OSINT (Open Source Intelligence)"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"OSINT (Open Source Intelligence)"}'
                           >
-                            <span>OSINT (Open Source Intelligence)</span>
+                            <span>OSINT (ओपन सोर्स इंटेलिजेंस)</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10194,7 +10121,7 @@
                             data-track-props='{"type":"Subject","title":"Threat Intelligence"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Threat Intelligence"}'
                           >
-                            <span>Threat Intelligence</span>
+                            <span>धमकी खुफिया</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10205,7 +10132,7 @@
                             data-track-props='{"type":"Subject","title":"Information Security Certifications"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Information Security Certifications"}'
                           >
-                            <span>Information Security Certifications</span>
+                            <span>सूचना सुरक्षा प्रमाणपत्र</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10216,7 +10143,7 @@
                             data-track-props='{"type":"Subject","title":"Red Team"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Red Team"}'
                           >
-                            <span>Red Team</span>
+                            <span>रेड टीम</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10227,7 +10154,7 @@
                             data-track-props='{"type":"Subject","title":"Blue Team"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Blue Team"}'
                           >
-                            <span>Blue Team</span>
+                            <span>नीली टीम</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10238,7 +10165,7 @@
                             data-track-props='{"type":"Subject","title":"Information Security (InfoSec)"}'
                             data-track-ga='{"category":"nav_click","action":"subject","label":"Information Security (InfoSec)"}'
                           >
-                            <span>View all Information Security (InfoSec)</span>
+                            <span>सभी सूचना सुरक्षा देखें (इन्फोसेक)</span>
                           </a>
                         </li>
                       </ul>
@@ -10254,7 +10181,7 @@
                       class="main-nav-dropdown__subsection-header large-up-hidden"
                     >
                       <button
-                        aria-label="Back to main menu"
+                        aria-label="मुख्य मेनू में वापस जाएं"
                         data-name="MAIN_NAV_SUBSECTION_BACK"
                         class="main-nav-dropdown__subsection-back-button"
                       >
@@ -10262,7 +10189,7 @@
                       </button>
 
                       <h3 class="main-nav-dropdown__subsection-title">
-                        Conference Talks
+                        सम्मेलन वार्ता
                       </h3>
                     </div>
 
@@ -10276,7 +10203,7 @@
                             data-track-props='{"type":"Subject","title":"Black Hat"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Black Hat"}'
                           >
-                            <span>Black Hat</span>
+                            <span>बुरा व्यक्ति</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10287,7 +10214,7 @@
                             data-track-props='{"type":"Subject","title":"Security BSides"}'
                             data-track-ga='{"category":"nav_click","action":"subject-child","label":"Security BSides"}'
                           >
-                            <span>Security BSides</span>
+                            <span>सुरक्षा बीएसईडीएस</span>
                           </a>
                         </li>
                         <li class="main-nav-dropdown__item">
@@ -10298,7 +10225,7 @@
                             data-track-props='{"type":"Subject","title":"Conference Talks"}'
                             data-track-ga='{"category":"nav_click","action":"subject","label":"Conference Talks"}'
                           >
-                            <span>View all Conference Talks</span>
+                            <span>सभी सम्मेलन वार्ता देखें</span>
                           </a>
                         </li>
                       </ul>
@@ -10309,347 +10236,43 @@
             </div>
 
             <div
-              data-name="SEARCH_TOGGLE"
-              data-search-container=""
-              class="small-down-width-100 small-down-absolute medium-up-horz-align-right small-down-left small-down-padding-horz-medium border-box navbar-search__container"
+              data-menu="report"
+              data-name="NAV_DROPDOWN"
+              data-detail='{"name": "report"}'
+              class="div"
+              id="divarreglo"
+              class="hidden xlarge-up-flex"
+              onmouseover="mostrarDiv5()"
+              onmouseout="ocultarDiv5()"
+              style="align-items: center; height: 100%"
             >
-              <div class="relative">
-                <div class="navbar-search">
-                  <form class="search-input" method="GET" action="/search">
-                    <i
-                      class="icon-search-charcoal icon-medium search-input__search-icon"
-                    ></i>
-                    <input
-                      id="autocomplete-search-508457563"
-                      class="search-input__input is-blank"
-                      type="search"
-                      autocomplete="off"
-                      aria-label="खोज पाठ्यक्रम और अधिक…"
-                      placeholder="खोज पाठ्यक्रम और अधिक…"
-                      name="q"
-                      data-track-ga='{"category":"autocomplete","action":"open searchbox","label":"navbar"}'
-                      value=""
-                      data-name="AUTOCOMPLETE_SEARCHBOX"
-                    />
-                    <button
-                      class="search-input__clear-button"
-                      type="button"
-                      aria-label="Clear"
-                      aria-controls="autocomplete-search-508457563"
-                      data-name="AUTOCOMPLETE_CLEAR"
-                      hidden=""
-                    >
-                      <i class="icon-x-charcoal icon-xsmall"></i>
-                    </button>
-                  </form>
-                </div>
-
-                <div class="search-results">
-                  <div class="search-results__container">
-                    <div class="search-results__small-header">
-                      <button
-                        aria-label="Back to main menu"
-                        class="search-results__small-header-back"
-                        type="button"
-                        data-name="MOBILE_AUTOCOMPLETE_EXIT"
-                      >
-                        <i class="icon-chevron-left-charcoal icon-small"></i>
-                      </button>
-
-                      <form
-                        class="search-input--compact"
-                        method="GET"
-                        action="/search"
-                      >
-                        <i
-                          class="icon-search-charcoal icon-medium search-input__search-icon"
-                        ></i>
-                        <input
-                          id="autocomplete-search-568711590"
-                          class="search-input__input is-blank"
-                          type="search"
-                          autocomplete="off"
-                          aria-label="Search courses and more…"
-                          placeholder="Search courses and more…"
-                          name="q"
-                          data-track-ga='{"category":"autocomplete","action":"open searchbox","label":"navbar"}'
-                          value=""
-                          data-name="MOBILE_AUTOCOMPLETE_SEARCHBOX"
-                        />
-                        <button
-                          class="search-input__clear-button"
-                          type="button"
-                          aria-label="Clear"
-                          aria-controls="autocomplete-search-568711590"
-                          data-name="AUTOCOMPLETE_CLEAR"
-                          hidden=""
-                        >
-                          <i class="icon-x-charcoal icon-xsmall"></i>
-                        </button>
-                      </form>
-                    </div>
-
-                    <div
-                      class="search-results__results js-autocomplete-results"
-                    >
-                      <div
-                        class="search-results__group js-search-result-featured_articles"
-                      >
-                        <ol class="list-no-style">
-                          <li>
-                            <a
-                              class="search-results__result js-autocomplete-result"
-                              href="https://www.classcentral.com/report/free-google-certifications/"
-                              data-track-ga='{"category":"autocomplete empty state","action":"mooc_report_article","label":"Entry: \u201c700+ Free Google Certifications\u201d"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-paper-charcoal icon-small"
-                              ></i>
-                              <div
-                                class="search-results__result-info"
-                                style="--offset-right: 91px"
-                              >
-                                <p class="search-results__result-name--bold">
-                                  700+ Free Google Certifications
-                                </p>
-                                <span class="search-results__result-tag"
-                                  ><i
-                                    class="icon-xsmall icon-megaphone-charcoal"
-                                  ></i>
-                                  Trending</span
-                                >
-                              </div>
-                            </a>
-                          </li>
-                        </ol>
-                      </div>
-                      <div
-                        class="search-results__group js-search-result-search_term_suggestions"
-                        data-template="suggested_search_tokens"
-                      >
-                        <h2 class="search-results__group-heading">
-                          Most common
-                        </h2>
-
-                        <ol class="list-no-style">
-                          <li>
-                            <button
-                              class="search-results__result js-autocomplete-result"
-                              data-track-ga='{"category":"autocomplete empty state","action":"suggested_search_term","label":"Entry: \u201cmarketing\u201d"}'
-                              type="button"
-                              data-name="SUGGESTED_SEARCH_TERM"
-                              data-detail='{"term":"marketing"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-search-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <span class="search-results__result-name"
-                                  >marketing</span
-                                >
-                              </div>
-                            </button>
-                          </li>
-                          <li>
-                            <button
-                              class="search-results__result js-autocomplete-result"
-                              data-track-ga='{"category":"autocomplete empty state","action":"suggested_search_term","label":"Entry: \u201cgraphic design\u201d"}'
-                              type="button"
-                              data-name="SUGGESTED_SEARCH_TERM"
-                              data-detail='{"term":"graphic design"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-search-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <span class="search-results__result-name"
-                                  >graphic design</span
-                                >
-                              </div>
-                            </button>
-                          </li>
-                          <li>
-                            <button
-                              class="search-results__result js-autocomplete-result"
-                              data-track-ga='{"category":"autocomplete empty state","action":"suggested_search_term","label":"Entry: \u201cmachine learning\u201d"}'
-                              type="button"
-                              data-name="SUGGESTED_SEARCH_TERM"
-                              data-detail='{"term":"machine learning"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-search-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <span class="search-results__result-name"
-                                  >machine learning</span
-                                >
-                              </div>
-                            </button>
-                          </li>
-                        </ol>
-                      </div>
-                      <div
-                        class="search-results__group js-search-result-popular_subjects"
-                      >
-                        <h2 class="search-results__group-heading">
-                          Popular subjects
-                        </h2>
-
-                        <ol class="list-no-style">
-                          <li>
-                            <a
-                              class="search-results__result js-autocomplete-result"
-                              href="/subject/web-design"
-                              data-track-ga='{"category":"autocomplete empty state","action":"subject","label":"Entry: \u201cWeb Design\u201d"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-subject-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <p class="search-results__result-name">
-                                  Web Design
-                                </p>
-                                <span class="search-results__result-extra"
-                                  >342 courses</span
-                                >
-                              </div>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="search-results__result js-autocomplete-result"
-                              href="/subject/ai"
-                              data-track-ga='{"category":"autocomplete empty state","action":"subject","label":"Entry: \u201cArtificial Intelligence\u201d"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-subject-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <p class="search-results__result-name">
-                                  Artificial Intelligence
-                                </p>
-                                <span class="search-results__result-extra"
-                                  >1,843 courses</span
-                                >
-                              </div>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="search-results__result js-autocomplete-result"
-                              href="/subject/programming-languages"
-                              data-track-ga='{"category":"autocomplete empty state","action":"subject","label":"Entry: \u201cProgramming Languages\u201d"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-subject-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <p class="search-results__result-name">
-                                  Programming Languages
-                                </p>
-                                <span class="search-results__result-extra"
-                                  >11,179 courses</span
-                                >
-                              </div>
-                            </a>
-                          </li>
-                        </ol>
-                      </div>
-                      <div
-                        class="search-results__group js-search-result-popular_courses"
-                      >
-                        <h2 class="search-results__group-heading">
-                          Popular courses
-                        </h2>
-
-                        <ol class="list-no-style">
-                          <li>
-                            <a
-                              class="search-results__result js-autocomplete-result"
-                              href="/course/edx-marketing-innovative-products-and-services-19176"
-                              data-track-ga='{"category":"autocomplete empty state","action":"course","label":"Entry: \u201cMarketing Innovative Products and Services\u201d"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-course-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <p class="search-results__result-name">
-                                  Marketing Innovative Products and Services
-                                </p>
-                                <span class="search-results__result-extra"
-                                  >University System of Maryland</span
-                                >
-                              </div>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="search-results__result js-autocomplete-result"
-                              href="/course/financialmarkets-912"
-                              data-track-ga='{"category":"autocomplete empty state","action":"course","label":"Entry: \u201cFinancial Markets\u201d"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-course-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <p class="search-results__result-name">
-                                  Financial Markets
-                                </p>
-                                <span class="search-results__result-extra"
-                                  >Yale University</span
-                                >
-                              </div>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="search-results__result js-autocomplete-result"
-                              href="/course/programming1-385"
-                              data-track-ga='{"category":"autocomplete empty state","action":"course","label":"Entry: \u201cLearn to Program: The Fundamentals\u201d"}'
-                            >
-                              <i
-                                class="search-results__result-icon icon-course-charcoal icon-small"
-                              ></i>
-                              <div class="search-results__result-info">
-                                <p class="search-results__result-name">
-                                  Learn to Program: The Fundamentals
-                                </p>
-                                <span class="search-results__result-extra"
-                                  >University of Toronto</span
-                                >
-                              </div>
-                            </a>
-                          </li>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="search-results__blanket"
-                    data-name="AUTOCOMPLETE_BLANKET"
-                  ></div>
-                </div>
-              </div>
+              <a
+                style="width: 80px; top: 38%"
+                href="https://www.classcentral.com/report/"
+                data-detail='{"name": "report"}'
+                data-track-ga='{"category": "nav_click", "action": "news", "label":"top"}'
+                class="relative inline-block symbol-report"
+                >रिपोर्ट</a
+              >
             </div>
 
-            <div
-              class="row nowrap small-down-horz-align-right vert-align-middle"
-            >
+            <div class="row nowrap horz-align-right vert-align-middle">
               <div
                 data-menu="lists"
                 data-name="NAV_DROPDOWN"
                 data-detail='{"name": "lists"}'
                 class="xsmall-only-hidden margin-horz-xsmall"
+                id="myDiv"
               >
                 <button
                   data-track-ga='[
-                { "category": "Lists", "action": "Add Item", "label": "Navbar"},
-                { "category": "nav_click", "action": "lists", "label":"add item"}
-              ]'
+                  { "category": "Lists", "action": "Add Item", "label": "Navbar"},
+                  { "category": "nav_click", "action": "lists", "label":"add item"}
+                ]'
                   aria-label="आपकी सूचियाँ"
                   data-name="NAV_TRIGGER"
                   data-detail='{"name": "lists"}'
-                  class="cmpt-nav-add-item btn-circle btn-medium btn-white text-center"
+                  class="cmpt-nav-add-item btn-circle btn-medium btn-white text-center animate-fade-entered"
                 >
                   <i class="icon-small icon-list-add-charcoal"></i>
                 </button>
@@ -10658,9 +10281,50 @@
                   data-name="NAV_SUBMENU_CLOSE"
                   data-detail='{"name": "lists"}'
                   class="btn-circle btn-medium btn-white text-center animate-fade-hidden row vert-align-middle horz-align-center"
+                  id="showDiv"
                 >
                   <i class="icon-small icon-x-charcoal"></i>
                 </button>
+                <div
+                  class="bg-white z-top absolute border-all border-gray-light shadow-light animate-fade-entered"
+                  id="hiddenDiv"
+                  style="display: none"
+                  data-menu-dropdown="lists"
+                >
+                  <div class="text-center padding-medium">
+                    <img
+                      width="100"
+                      src="https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flists%2Flist-empty.png?auto=format&amp;ixlib=php-3.3.1&amp;w=100&amp;s=7005d0a45465e44b0327c67458186ec5"
+                      alt=""
+                    />
+                    <div>
+                      <p class="text-2 padding-top-small padding-horz-small">
+                        क्लास सेंट्रल लिस्ट के साथ अपने सीखने को व्यवस्थित और
+                        साझा करें।
+                      </p>
+                      <p class="text-2">
+                        <a
+                          data-track-ga='{"category":"nav_click","action":"lists","label":"showcase"}'
+                          href="/lists"
+                          >हमारी सूची शोकेस</a
+                        >
+                        देखें<a
+                          data-track-ga='{"category":"nav_click","action":"lists","label":"showcase"}'
+                          href="/lists"
+                        ></a>
+                      </p>
+
+                      <a
+                        href="/signup"
+                        data-name="SIGNUP_LINK"
+                        data-detail='{"source": "navbar lists" }'
+                        data-track-ga='{ "category": "nav_click", "action": "lists", "label": "sign up"}'
+                        class="text-right btn-blue margin-top-small"
+                        >साइन अप करें</a
+                      >
+                    </div>
+                  </div>
+                </div>
                 <div
                   class="animate-fade-hidden bg-white z-top absolute border-all border-gray-light shadow-light"
                   data-menu-dropdown="lists"
@@ -10673,28 +10337,18 @@
                     />
                     <div>
                       <p class="text-2 padding-top-small padding-horz-small">
-                        <font style="vertical-align: inherit"
-                          ><font style="vertical-align: inherit"
-                            >क्लास सेंट्रल लिस्ट के साथ अपने सीखने को व्यवस्थित
-                            और साझा करें।</font
-                          ></font
-                        >
+                        क्लास सेंट्रल लिस्ट के साथ अपने सीखने को व्यवस्थित और
+                        साझा करें।
                       </p>
                       <p class="text-2">
-                        <font style="vertical-align: inherit"
-                          ><a
-                            data-track-ga='{"category":"nav_click","action":"lists","label":"showcase"}'
-                            href="/lists"
-                            ><font style="vertical-align: inherit"
-                              >हमारी सूची शोकेस</font
-                            ></a
-                          ><font style="vertical-align: inherit">
-                            देखें</font
-                          ></font
-                        ><a
+                        <a
                           data-track-ga='{"category":"nav_click","action":"lists","label":"showcase"}'
                           href="/lists"
-                          ><font style="vertical-align: inherit"></font
+                          >हमारी सूची शोकेस</a
+                        >
+                        देखें<a
+                          data-track-ga='{"category":"nav_click","action":"lists","label":"showcase"}'
+                          href="/lists"
                         ></a>
                       </p>
 
@@ -10704,11 +10358,7 @@
                         data-detail='{"source": "navbar lists" }'
                         data-track-ga='{ "category": "nav_click", "action": "lists", "label": "sign up"}'
                         class="text-right btn-blue margin-top-small"
-                        ><font style="vertical-align: inherit"
-                          ><font style="vertical-align: inherit">
-                            साइन अप करें
-                          </font></font
-                        ></a
+                        >साइन अप करें</a
                       >
                     </div>
                   </div>
@@ -10720,18 +10370,12 @@
                   data-track-click="nav_click"
                   data-track-props='{ "type": "User", "title": "Login" }'
                   data-track-ga='{"category": "nav_click", "action": "user", "label":"login"}'
-                  href="/login"
+                  href="./login.html"
                   class="text-1 weight-semi color-charcoal"
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit"
-                      >लॉग इन करें</font
-                    ></font
-                  ></a
+                  >लॉग इन करें</a
                 >
                 <span class="inline-block padding-horz-xxsmall color-charcoal"
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit">या</font></font
-                  ></span
+                  >या</span
                 >
                 <a
                   data-name="SIGNUP_LINK"
@@ -10739,13 +10383,10 @@
                   data-track-click="nav_click"
                   data-track-props='{ "type": "User", "title": "Register" }'
                   data-track-ga='{"category": "nav_click", "action": "user", "label":"register"}'
-                  href="/signup"
+                  href="./singup.html"
+                  id="showContent"
                   class="text-1 weight-semi color-charcoal"
-                  ><font style="vertical-align: inherit"
-                    ><font style="vertical-align: inherit">
-                      साइन अप करें
-                    </font></font
-                  ></a
+                  >साइन अप करें</a
                 >
               </div>
               <div
@@ -10753,16 +10394,19 @@
                 data-name="NAV_DROPDOWN"
                 data-detail='{"name": "user"}'
                 class="xlarge-up-hidden"
+                id="hiddenContent"
+                style="display: none"
               >
                 <button
-                  aria-label="Profile &amp; Settings"
+                  aria-label="पार्श्वचित्र समायोजन"
                   data-name="NAV_TRIGGER"
                   data-detail='{"name": "user"}'
+                  class="animate-fade-entered"
                 >
                   <i class="icon-profile-charcoal icon-medium"></i>
                 </button>
                 <button
-                  aria-label="Close Profile &amp; Settings menu"
+                  aria-label="प्रोफ़ाइल और सेटिंग मेनू बंद करें"
                   data-name="NAV_SUBMENU_CLOSE"
                   data-detail='{"name": "user"}'
                   class="animate-fade-hidden"
@@ -10783,9 +10427,8 @@
                         data-track-ga='{"category": "nav_click", "action": "user", "label":"login"}'
                         href="/login"
                         class="block text-2 hover-no-underline hover-bg-gray-light color-charcoal padding-horz-small padding-vert-xxsmall"
+                        >लॉग इन करें</a
                       >
-                        Log in
-                      </a>
                     </li>
                     <li>
                       <a
@@ -10796,9 +10439,8 @@
                         data-detail='{ "source": "navbar dropdown" }'
                         href="/signup"
                         class="block text-2 hover-no-underline hover-bg-gray-light color-charcoal padding-horz-small padding-vert-xxsmall"
+                        >साइन अप करें</a
                       >
-                        Sign up
-                      </a>
                     </li>
                   </ol>
                 </div>
@@ -10808,7 +10450,7 @@
         </div>
 
         <div
-          class="animate-fade-hidden width-100 height-100 fixed top left"
+          class="width-100 height-100 fixed top left animate-fade-hidden"
           data-name="BLANKET"
           data-detail="{}"
           data-header-blanket=""
